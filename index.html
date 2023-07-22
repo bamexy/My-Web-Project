@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7,8,edge" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no">
+    <title>ShortMA | shrink the world, one link at a time.</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/all.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all" />
+  </head>
+  <body>
+    <div id="header" class="flex-j">
+      <h2 id="logo">ShortMa.</h2>
+      <!-- <div id="hamburger" class="flex">
+        <div id="top"></div>
+        <div id="bottom"></div>
+      </div> -->
+      <div id="theme" class="flex-c">
+        <i class="fas fa-sun"></i>
+      </div>
+    </div>
+    
+    <div id="main">
+      <div id="hero" class="page flex">
+        <h2 class="title">Shrink Up Any Link.</h2>
+        <p class="desc">One link at a time.</p>
+        <button class="button nav-link" data-nav="shorten">shorten your link</button>
+      </div>
+      <div id="shorten" class="page shorten-page flex hide">
+        <h4 class="title">Paste your link below.</h4>
+        <p class="desc big">A short link will be<br>made in a sec.</p>
+        <div class="shorten-before flex">
+          <span class="clip first"></span>
+          <span class="clip second"></span>
+          <input id="input-before" class="input before" type="text" placeholder="paste your link..."/>
+          <button class="shorten">Paste</button>
+          <span class="clip third"></span>
+          <span class="clip fourth"></span>
+        </div>
+        <div class="shorten-after flex hide">
+          <span class="clip first"></span>
+          <span class="clip second"></span>
+          <input id="input-after" class="input after" type="text" value="https://awesome.me/5fj6K9" disabled/>
+          <button class="shorten">Copy</button>
+          <span class="clip third"></span>
+          <span class="clip fourth"></span>
+        </div>
+      </div>
+      <div id="analytics" class="page analytics flex hide">
+        <h4 class="title">Analytics.</h4>
+        <p class="desc big">See some stats of your<br>shortened link:</p>
+        <div class="flex">
+        <span class="clip first"></span>
+        <span class="clip second"></span>
+          <div class="analysis flex-j">
+            <div class="readings flex">
+              <div class="read flex-j">
+                <span class="read_title">Clicks (excluding your IP):</span>
+                <span class="read_desc">67</span>
+              </div>
+              <div class="read flex-j">
+                <span class="read_title">Mobile:</span>
+                <span class="read_desc">45</span>
+              </div>
+              <div class="read flex-j">
+                <span class="read_title">Desktop / Laptop:</span>
+                <span class="read_desc">22</span>
+              </div>
+            </div>
+            <button class="expand">Expand</button>
+          </div>
+          <span class="clip third"></span>
+          <span class="clip fourth"></span>
+        </div>
+      </div>
+      <div id="api" class="page flex hide">
+        <h2 class="title">API.</h2>
+        <p class="desc">Coming Soon.</p>
+      </div>
+      <div id="upcoming" class="page flex hide">
+        <h2 class="title">UPCOMING.</h2>
+        <p class="desc">Coming Soon.</p>
+      </div>
+      
+      <img id="link_earth_img" src="assets/bg/link_earth2.png" alt="link_earth_img" />
+    </div>
+    
+    <div id="modal" class="flex-c">
+      <div id="modal-content">
+        <p class="desc">Nothing to see here</p>
+      </div>
+    </div>
+    
+    <div class="nav flex-c">
+        <div class="nav-inner flex-j">
+          <button class="nav-link flex-c" type="submit" data-nav="hero"><i class="fas fa-link"></i><span class="title">Link Shortener</span></button>
+          <button class="nav-link flex-c" type="submit" data-nav="analytics"><i class="fas fa-chart-bar"></i><span class="title">Statistics</span></button>
+          <button class="nav-link flex-c" type="submit" data-nav="api"><i class="fab fa-gitkraken"></i><span class="title">API</span></button>
+          <button class="nav-link flex-c" type="submit" data-nav="upcoming"><i class="fas fa-bell"></i><span class="title">Updates</span></button>
+        <div class="dev flex-j">
+          <button class="dev-link flex-c" type="submit"><i class="fas fa-code"></i><span class="title">Developer</span></button>
+          <button class="dev-link flex-c" type="submit"><i class="fas fa-coffee"></i><span class="title">Donate</span></button>
+        </div>
+        </div>
+      </div>
+    <script src="assets/js/gsap.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="assets/js/all.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="assets/js/app.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
